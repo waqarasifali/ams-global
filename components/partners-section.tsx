@@ -2,12 +2,30 @@ import Image from "next/image"
 
 export function PartnersSection() {
   const partners = [
-    { name: "Company 1", logo: "/placeholder.svg?height=80&width=180" },
-    { name: "Company 2", logo: "/placeholder.svg?height=80&width=180" },
-    { name: "Company 3", logo: "/placeholder.svg?height=80&width=180" },
-    { name: "Company 4", logo: "/placeholder.svg?height=80&width=180" },
-    { name: "Company 5", logo: "/placeholder.svg?height=80&width=180" },
-    { name: "Company 6", logo: "/placeholder.svg?height=80&width=180" },
+    {
+      name: "Company 1",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png",
+    },
+    {
+      name: "Company 2",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1667px-Apple_logo_black.svg.png",
+    },
+    {
+      name: "Company 3",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2048px-Microsoft_logo.svg.png",
+    },
+    {
+      name: "Company 4",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png",
+    },
+    {
+      name: "Company 5",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png",
+    },
+    {
+      name: "Company 6",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Samsung_Logo.svg/2560px-Samsung_Logo.svg.png",
+    },
   ]
 
   return (

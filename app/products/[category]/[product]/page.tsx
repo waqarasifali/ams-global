@@ -34,9 +34,9 @@ export default function ProductPage({ params }: ProductPageProps) {
       Warranty: "1 year standard warranty",
     },
     images: [
-      "/placeholder.svg?height=600&width=800",
-      "/placeholder.svg?height=600&width=800",
-      "/placeholder.svg?height=600&width=800",
+      "https://images.unsplash.com/photo-1581092921461-39b9d08a9b21?q=80&w=2070&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=2070&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1581092162384-8987c1d64718?q=80&w=2070&auto=format&fit=crop",
     ],
     categoryTitle: params.category.charAt(0).toUpperCase() + params.category.slice(1),
   }

@@ -9,33 +9,60 @@ export default function ProductsPage() {
       id: "industrial",
       title: "Industrial Equipment",
       description: "High-quality machinery and equipment for industrial applications.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?q=80&w=2070&auto=format&fit=crop",
       products: [
-        { name: "Industrial Machinery", image: "/placeholder.svg?height=300&width=400" },
-        { name: "Manufacturing Equipment", image: "/placeholder.svg?height=300&width=400" },
-        { name: "Safety Gear", image: "/placeholder.svg?height=300&width=400" },
+        {
+          name: "Industrial Machinery",
+          image: "https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?q=80&w=2070&auto=format&fit=crop",
+        },
+        {
+          name: "Manufacturing Equipment",
+          image: "https://images.unsplash.com/photo-1565106430482-8f6e74349ca1?q=80&w=2070&auto=format&fit=crop",
+        },
+        {
+          name: "Safety Gear",
+          image: "https://images.unsplash.com/photo-1618090584176-7132b9911657?q=80&w=2074&auto=format&fit=crop",
+        },
       ],
     },
     {
       id: "technology",
       title: "Technology Products",
       description: "Innovative technology solutions for modern businesses.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop",
       products: [
-        { name: "Enterprise Software", image: "/placeholder.svg?height=300&width=400" },
-        { name: "Networking Equipment", image: "/placeholder.svg?height=300&width=400" },
-        { name: "Smart Devices", image: "/placeholder.svg?height=300&width=400" },
+        {
+          name: "Enterprise Software",
+          image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop",
+        },
+        {
+          name: "Networking Equipment",
+          image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=2070&auto=format&fit=crop",
+        },
+        {
+          name: "Smart Devices",
+          image: "https://images.unsplash.com/photo-1546054454-aa26e2b734c7?q=80&w=2080&auto=format&fit=crop",
+        },
       ],
     },
     {
       id: "office",
       title: "Office Solutions",
       description: "Complete office solutions to enhance productivity.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=2069&auto=format&fit=crop",
       products: [
-        { name: "Office Furniture", image: "/placeholder.svg?height=300&width=400" },
-        { name: "Stationery", image: "/placeholder.svg?height=300&width=400" },
-        { name: "Office Equipment", image: "/placeholder.svg?height=300&width=400" },
+        {
+          name: "Office Furniture",
+          image: "https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?q=80&w=2070&auto=format&fit=crop",
+        },
+        {
+          name: "Stationery",
+          image: "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?q=80&w=2048&auto=format&fit=crop",
+        },
+        {
+          name: "Office Equipment",
+          image: "https://images.unsplash.com/photo-1581092921461-39b9d08a9b21?q=80&w=2070&auto=format&fit=crop",
+        },
       ],
     },
   ]
